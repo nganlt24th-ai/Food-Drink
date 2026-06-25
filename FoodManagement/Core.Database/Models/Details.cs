@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Core.Database.Models
 {
-    [Table("Deatails")]
+    [Table("Details")]
     public class Details
     {
         [Key]

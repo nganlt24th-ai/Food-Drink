@@ -45,7 +45,7 @@ namespace Web.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("a4d8906c-c9b4-422f-ba4f-f4bb407969cd"),
+                            Id = new Guid("8b04fba5-e63b-45a6-8370-912ac77614e1"),
                             GroupId = new Guid("2bd8bd81-f341-438a-98fb-dfad4ffd15bc"),
                             RoleId = new Guid("5a8afd30-f4e8-4f8d-8519-d27fe14c2eee")
                         });
@@ -88,14 +88,14 @@ namespace Web.Migrations
                         {
                             Id = new Guid("f4fae31d-33fa-46f5-95d2-5339a77676a7"),
                             CreatedBy = new Guid("e3fa3f30-1996-44fc-a68f-941c808e7394"),
-                            CreatedOn = new DateTime(2026, 6, 21, 20, 43, 22, 238, DateTimeKind.Local).AddTicks(7677),
+                            CreatedOn = new DateTime(2026, 6, 25, 18, 24, 46, 785, DateTimeKind.Local).AddTicks(2190),
                             Name = "Root"
                         },
                         new
                         {
                             Id = new Guid("ec6a9bf5-545d-4f1a-b288-a0f54d928193"),
                             CreatedBy = new Guid("e3fa3f30-1996-44fc-a68f-941c808e7394"),
-                            CreatedOn = new DateTime(2026, 6, 21, 20, 43, 22, 238, DateTimeKind.Local).AddTicks(7682),
+                            CreatedOn = new DateTime(2026, 6, 25, 18, 24, 46, 785, DateTimeKind.Local).AddTicks(2194),
                             Name = "Authorized",
                             ParentId = new Guid("f4fae31d-33fa-46f5-95d2-5339a77676a7")
                         },
@@ -103,7 +103,7 @@ namespace Web.Migrations
                         {
                             Id = new Guid("9eca7eb7-a450-431a-a071-ad472e358a24"),
                             CreatedBy = new Guid("e3fa3f30-1996-44fc-a68f-941c808e7394"),
-                            CreatedOn = new DateTime(2026, 6, 21, 20, 43, 22, 238, DateTimeKind.Local).AddTicks(7691),
+                            CreatedOn = new DateTime(2026, 6, 25, 18, 24, 46, 785, DateTimeKind.Local).AddTicks(2198),
                             Name = "Nhóm quyền",
                             ParentId = new Guid("ec6a9bf5-545d-4f1a-b288-a0f54d928193")
                         },
@@ -111,7 +111,7 @@ namespace Web.Migrations
                         {
                             Id = new Guid("5ae4a4f8-b62f-427f-8987-e1caec355c6f"),
                             CreatedBy = new Guid("e3fa3f30-1996-44fc-a68f-941c808e7394"),
-                            CreatedOn = new DateTime(2026, 6, 21, 20, 43, 22, 238, DateTimeKind.Local).AddTicks(7695),
+                            CreatedOn = new DateTime(2026, 6, 25, 18, 24, 46, 785, DateTimeKind.Local).AddTicks(2202),
                             Name = "New",
                             ParentId = new Guid("f4fae31d-33fa-46f5-95d2-5339a77676a7")
                         },
@@ -119,7 +119,7 @@ namespace Web.Migrations
                         {
                             Id = new Guid("38cd1e1d-d162-40b3-a543-de7fd5398253"),
                             CreatedBy = new Guid("e3fa3f30-1996-44fc-a68f-941c808e7394"),
-                            CreatedOn = new DateTime(2026, 6, 21, 20, 43, 22, 238, DateTimeKind.Local).AddTicks(7699),
+                            CreatedOn = new DateTime(2026, 6, 25, 18, 24, 46, 785, DateTimeKind.Local).AddTicks(2206),
                             Name = "Menu",
                             ParentId = new Guid("f4fae31d-33fa-46f5-95d2-5339a77676a7")
                         });
@@ -175,7 +175,7 @@ namespace Web.Migrations
 
                     b.HasIndex("OrderId");
 
-                    b.ToTable("Deatails");
+                    b.ToTable("Details");
                 });
 
             modelBuilder.Entity("Core.Database.Models.Group", b =>
@@ -256,7 +256,7 @@ namespace Web.Migrations
                         new
                         {
                             Id = new Guid("e3fa3f30-1996-44fc-a68f-941c808e7394"),
-                            CreatedOn = new DateTime(2026, 6, 21, 20, 43, 22, 238, DateTimeKind.Local).AddTicks(7619),
+                            CreatedOn = new DateTime(2026, 6, 25, 18, 24, 46, 785, DateTimeKind.Local).AddTicks(2145),
                             Email = "nganlt.24th@sv.dla.edu.vn",
                             GroupId = new Guid("2bd8bd81-f341-438a-98fb-dfad4ffd15bc"),
                             LoginName = "thanh.ngan",
